@@ -1,0 +1,7 @@
+Hyperparameter research in KIBA
+load finished
+data shuffle
+Training for head num:12
+[  1/500] train_loss: 2.35819 valid_loss: 0.50370 valid_MSE: 0.50364 valid_MAE: 0.46337 valid_R2: 0.27556 
+[  2/500] train_loss: 0.49595 valid_loss: 0.45346 valid_MSE: 0.45343 valid_MAE: 0.44212 valid_R2: 0.34778 
+[  3/500] train_loss: 0.46080 valid_loss: 0.42727 valid_MSE: 0.42722 valid_MAE: 0.46598 valid_R2: 0.38549 

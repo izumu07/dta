@@ -1,0 +1,24 @@
+results on 1th fold
+Train_set--Loss:0.00921;MSE:0.00922;MAE:0.05010;R2:0.98648.
+Valid_set--Loss:0.20364;MSE:0.20468;MAE:0.22245;R2:0.69644.
+Test_set--Loss:0.20952;MSE:0.20953;MAE:0.22113;R2:0.67352.
+results on 2th fold
+Train_set--Loss:0.00303;MSE:0.00303;MAE:0.02579;R2:0.99539.
+Valid_set--Loss:0.20498;MSE:0.20302;MAE:0.21551;R2:0.69347.
+Test_set--Loss:0.20797;MSE:0.20796;MAE:0.22214;R2:0.71512.
+results on 3th fold
+Train_set--Loss:0.00650;MSE:0.00651;MAE:0.03637;R2:0.99030.
+Valid_set--Loss:0.21514;MSE:0.21363;MAE:0.22409;R2:0.69022.
+Test_set--Loss:0.18853;MSE:0.18853;MAE:0.21306;R2:0.71607.
+results on 4th fold
+Train_set--Loss:0.00388;MSE:0.00388;MAE:0.03063;R2:0.99420.
+Valid_set--Loss:0.21834;MSE:0.22170;MAE:0.22310;R2:0.69025.
+Test_set--Loss:0.20818;MSE:0.20817;MAE:0.21928;R2:0.68005.
+results on 5th fold
+Train_set--Loss:0.00309;MSE:0.00309;MAE:0.02671;R2:0.99536.
+Valid_set--Loss:0.20075;MSE:0.20210;MAE:0.21015;R2:0.70981.
+Test_set--Loss:0.20289;MSE:0.20289;MAE:0.21464;R2:0.69992.
+The results on Davis:
+MSE(std):0.2034(0.0078)
+MAE(std):0.2181(0.0036)
+R2(std):0.6969(0.0175)
