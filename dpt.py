@@ -95,6 +95,8 @@ if __name__ == "__main__":
     """seach for dropout rate"""
     best_dropout_rate = 0.1
     best_result = 100
+    best_head_num=10
+    best_batch_size=32
     for dropout_rate in [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9]:
         """Output files."""
         save_path_i = "{}/Dropout_rate/".format(save_path)

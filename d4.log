@@ -1,0 +1,252 @@
+Hyperparameter research in KIBA
+load finished
+data shuffle
+Training for dropout rate:0.1
+[  1/500] train_loss: 1.12023 valid_loss: 0.50190 valid_MSE: 0.50183 valid_MAE: 0.51756 valid_R2: 0.27817 
+[  2/500] train_loss: 0.48715 valid_loss: 0.38217 valid_MSE: 0.38217 valid_MAE: 0.42868 valid_R2: 0.45028 
+[  3/500] train_loss: 0.43157 valid_loss: 0.39456 valid_MSE: 0.39453 valid_MAE: 0.43733 valid_R2: 0.43251 
+[  4/500] train_loss: 0.42453 valid_loss: 0.34364 valid_MSE: 0.34367 valid_MAE: 0.41171 valid_R2: 0.50566 
+[  5/500] train_loss: 0.37964 valid_loss: 0.45440 valid_MSE: 0.45446 valid_MAE: 0.45575 valid_R2: 0.34630 
+[  6/500] train_loss: 0.38126 valid_loss: 0.30798 valid_MSE: 0.30804 valid_MAE: 0.36076 valid_R2: 0.55691 
+[  7/500] train_loss: 0.34912 valid_loss: 0.39254 valid_MSE: 0.39260 valid_MAE: 0.40720 valid_R2: 0.43528 
+[  8/500] train_loss: 0.35007 valid_loss: 0.29907 valid_MSE: 0.29910 valid_MAE: 0.34511 valid_R2: 0.56977 
+[  9/500] train_loss: 0.32507 valid_loss: 0.35036 valid_MSE: 0.35039 valid_MAE: 0.39048 valid_R2: 0.49600 
+[ 10/500] train_loss: 0.32655 valid_loss: 0.29973 valid_MSE: 0.29970 valid_MAE: 0.38291 valid_R2: 0.56890 
+[ 11/500] train_loss: 0.32437 valid_loss: 0.35154 valid_MSE: 0.35156 valid_MAE: 0.39007 valid_R2: 0.49431 
+[ 12/500] train_loss: 0.32675 valid_loss: 0.28432 valid_MSE: 0.28436 valid_MAE: 0.34550 valid_R2: 0.59097 
+[ 13/500] train_loss: 0.30345 valid_loss: 0.36150 valid_MSE: 0.36155 valid_MAE: 0.41396 valid_R2: 0.47994 
+[ 14/500] train_loss: 0.30563 valid_loss: 0.27202 valid_MSE: 0.27207 valid_MAE: 0.34026 valid_R2: 0.60865 
+[ 15/500] train_loss: 0.28400 valid_loss: 0.31125 valid_MSE: 0.31126 valid_MAE: 0.36176 valid_R2: 0.55228 
+[ 16/500] train_loss: 0.30184 valid_loss: 0.26622 valid_MSE: 0.26620 valid_MAE: 0.33285 valid_R2: 0.61709 
+[ 17/500] train_loss: 0.27683 valid_loss: 0.30923 valid_MSE: 0.30925 valid_MAE: 0.35684 valid_R2: 0.55518 
+[ 18/500] train_loss: 0.28097 valid_loss: 0.25298 valid_MSE: 0.25295 valid_MAE: 0.33050 valid_R2: 0.63615 
+[ 19/500] train_loss: 0.25540 valid_loss: 0.30410 valid_MSE: 0.30406 valid_MAE: 0.36378 valid_R2: 0.56264 
+[ 20/500] train_loss: 0.26149 valid_loss: 0.24331 valid_MSE: 0.24331 valid_MAE: 0.31379 valid_R2: 0.65003 
+[ 21/500] train_loss: 0.24211 valid_loss: 0.34523 valid_MSE: 0.34524 valid_MAE: 0.44425 valid_R2: 0.50341 
+[ 22/500] train_loss: 0.24721 valid_loss: 0.23314 valid_MSE: 0.23313 valid_MAE: 0.30783 valid_R2: 0.66467 
+[ 23/500] train_loss: 0.22975 valid_loss: 0.29666 valid_MSE: 0.29668 valid_MAE: 0.38690 valid_R2: 0.57325 
+[ 24/500] train_loss: 0.23481 valid_loss: 0.22678 valid_MSE: 0.22678 valid_MAE: 0.29926 valid_R2: 0.67379 
+[ 25/500] train_loss: 0.21829 valid_loss: 0.30085 valid_MSE: 0.30081 valid_MAE: 0.35424 valid_R2: 0.56731 
+[ 26/500] train_loss: 0.22519 valid_loss: 0.22750 valid_MSE: 0.22747 valid_MAE: 0.31174 valid_R2: 0.67280 
+[ 27/500] train_loss: 0.22199 valid_loss: 0.27928 valid_MSE: 0.27929 valid_MAE: 0.34990 valid_R2: 0.59827 
+[ 28/500] train_loss: 0.22340 valid_loss: 0.22362 valid_MSE: 0.22363 valid_MAE: 0.29550 valid_R2: 0.67833 
+[ 29/500] train_loss: 0.20704 valid_loss: 0.26744 valid_MSE: 0.26739 valid_MAE: 0.36232 valid_R2: 0.61539 
+[ 30/500] train_loss: 0.21340 valid_loss: 0.21651 valid_MSE: 0.21646 valid_MAE: 0.29713 valid_R2: 0.68865 
+[ 31/500] train_loss: 0.19860 valid_loss: 0.28216 valid_MSE: 0.28209 valid_MAE: 0.37581 valid_R2: 0.59424 
+[ 32/500] train_loss: 0.20543 valid_loss: 0.21218 valid_MSE: 0.21213 valid_MAE: 0.28903 valid_R2: 0.69487 
+[ 33/500] train_loss: 0.18936 valid_loss: 0.29694 valid_MSE: 0.29692 valid_MAE: 0.34159 valid_R2: 0.57292 
+[ 34/500] train_loss: 0.19460 valid_loss: 0.20844 valid_MSE: 0.20841 valid_MAE: 0.28404 valid_R2: 0.70022 
+[ 35/500] train_loss: 0.18200 valid_loss: 0.27779 valid_MSE: 0.27775 valid_MAE: 0.35354 valid_R2: 0.60049 
+[ 36/500] train_loss: 0.19064 valid_loss: 0.20495 valid_MSE: 0.20492 valid_MAE: 0.28043 valid_R2: 0.70524 
+[ 37/500] train_loss: 0.17388 valid_loss: 0.26194 valid_MSE: 0.26196 valid_MAE: 0.32512 valid_R2: 0.62320 
+[ 38/500] train_loss: 0.18045 valid_loss: 0.20519 valid_MSE: 0.20513 valid_MAE: 0.27761 valid_R2: 0.70493 
+[ 39/500] train_loss: 0.17800 valid_loss: 0.25017 valid_MSE: 0.25013 valid_MAE: 0.31853 valid_R2: 0.64021 
+[ 40/500] train_loss: 0.18008 valid_loss: 0.20507 valid_MSE: 0.20507 valid_MAE: 0.28344 valid_R2: 0.70503 
+[ 41/500] train_loss: 0.17856 valid_loss: 0.26467 valid_MSE: 0.26459 valid_MAE: 0.32932 valid_R2: 0.61942 
+[ 42/500] train_loss: 0.17705 valid_loss: 0.20287 valid_MSE: 0.20281 valid_MAE: 0.27892 valid_R2: 0.70828 
+[ 43/500] train_loss: 0.16713 valid_loss: 0.26402 valid_MSE: 0.26394 valid_MAE: 0.32296 valid_R2: 0.62035 
+[ 44/500] train_loss: 0.17129 valid_loss: 0.20096 valid_MSE: 0.20095 valid_MAE: 0.27696 valid_R2: 0.71095 
+[ 45/500] train_loss: 0.16190 valid_loss: 0.26074 valid_MSE: 0.26072 valid_MAE: 0.32117 valid_R2: 0.62499 
+[ 46/500] train_loss: 0.16644 valid_loss: 0.19879 valid_MSE: 0.19876 valid_MAE: 0.27174 valid_R2: 0.71411 
+[ 47/500] train_loss: 0.15703 valid_loss: 0.24936 valid_MSE: 0.24933 valid_MAE: 0.32450 valid_R2: 0.64136 
+[ 48/500] train_loss: 0.16325 valid_loss: 0.19869 valid_MSE: 0.19868 valid_MAE: 0.27865 valid_R2: 0.71422 
+[ 49/500] train_loss: 0.15085 valid_loss: 0.25507 valid_MSE: 0.25506 valid_MAE: 0.32437 valid_R2: 0.63312 
+[ 50/500] train_loss: 0.16307 valid_loss: 0.19502 valid_MSE: 0.19503 valid_MAE: 0.27443 valid_R2: 0.71947 
+[ 51/500] train_loss: 0.14712 valid_loss: 0.22946 valid_MSE: 0.22939 valid_MAE: 0.30214 valid_R2: 0.67004 
+[ 52/500] train_loss: 0.15400 valid_loss: 0.19695 valid_MSE: 0.19695 valid_MAE: 0.27460 valid_R2: 0.71671 
+[ 53/500] train_loss: 0.15355 valid_loss: 0.30172 valid_MSE: 0.30166 valid_MAE: 0.39181 valid_R2: 0.56610 
+[ 54/500] train_loss: 0.14488 valid_loss: 0.19314 valid_MSE: 0.19314 valid_MAE: 0.26683 valid_R2: 0.72219 
+[ 55/500] train_loss: 0.14258 valid_loss: 0.24293 valid_MSE: 0.24296 valid_MAE: 0.31226 valid_R2: 0.65052 
+[ 56/500] train_loss: 0.14545 valid_loss: 0.19441 valid_MSE: 0.19434 valid_MAE: 0.27135 valid_R2: 0.72046 
+[ 57/500] train_loss: 0.14231 valid_loss: 0.26991 valid_MSE: 0.26985 valid_MAE: 0.36259 valid_R2: 0.61185 
+[ 58/500] train_loss: 0.13946 valid_loss: 0.19110 valid_MSE: 0.19108 valid_MAE: 0.27223 valid_R2: 0.72515 
+[ 59/500] train_loss: 0.13504 valid_loss: 0.22825 valid_MSE: 0.22819 valid_MAE: 0.30023 valid_R2: 0.67177 
+[ 60/500] train_loss: 0.14804 valid_loss: 0.19291 valid_MSE: 0.19285 valid_MAE: 0.27100 valid_R2: 0.72261 
+[ 61/500] train_loss: 0.13574 valid_loss: 0.23282 valid_MSE: 0.23283 valid_MAE: 0.30030 valid_R2: 0.66509 
+[ 62/500] train_loss: 0.13201 valid_loss: 0.18722 valid_MSE: 0.18718 valid_MAE: 0.26454 valid_R2: 0.73077 
+[ 63/500] train_loss: 0.13184 valid_loss: 0.27569 valid_MSE: 0.27566 valid_MAE: 0.34104 valid_R2: 0.60349 
+[ 64/500] train_loss: 0.12869 valid_loss: 0.19102 valid_MSE: 0.19096 valid_MAE: 0.26453 valid_R2: 0.72532 
+[ 65/500] train_loss: 0.13112 valid_loss: 0.25381 valid_MSE: 0.25383 valid_MAE: 0.31554 valid_R2: 0.63489 
+[ 66/500] train_loss: 0.13818 valid_loss: 0.19264 valid_MSE: 0.19262 valid_MAE: 0.26568 valid_R2: 0.72293 
+[ 67/500] train_loss: 0.12904 valid_loss: 0.24524 valid_MSE: 0.24520 valid_MAE: 0.31433 valid_R2: 0.64730 
+[ 68/500] train_loss: 0.13177 valid_loss: 0.19001 valid_MSE: 0.18997 valid_MAE: 0.26536 valid_R2: 0.72674 
+[ 69/500] train_loss: 0.13283 valid_loss: 0.24375 valid_MSE: 0.24367 valid_MAE: 0.31084 valid_R2: 0.64950 
+[ 70/500] train_loss: 0.12979 valid_loss: 0.19092 valid_MSE: 0.19091 valid_MAE: 0.26237 valid_R2: 0.72540 
+[ 71/500] train_loss: 0.12943 valid_loss: 0.23706 valid_MSE: 0.23705 valid_MAE: 0.30839 valid_R2: 0.65902 
+[ 72/500] train_loss: 0.13230 valid_loss: 0.18945 valid_MSE: 0.18943 valid_MAE: 0.26406 valid_R2: 0.72752 
+[ 73/500] train_loss: 0.13699 valid_loss: 0.25929 valid_MSE: 0.25928 valid_MAE: 0.33794 valid_R2: 0.62705 
+[ 74/500] train_loss: 0.12388 valid_loss: 0.18780 valid_MSE: 0.18775 valid_MAE: 0.26308 valid_R2: 0.72994 
+[ 75/500] train_loss: 0.13086 valid_loss: 0.23368 valid_MSE: 0.23361 valid_MAE: 0.30824 valid_R2: 0.66398 
+[ 76/500] train_loss: 0.13005 valid_loss: 0.18758 valid_MSE: 0.18755 valid_MAE: 0.26550 valid_R2: 0.73023 
+[ 77/500] train_loss: 0.13075 valid_loss: 0.24671 valid_MSE: 0.24670 valid_MAE: 0.32007 valid_R2: 0.64514 
+[ 78/500] train_loss: 0.13164 valid_loss: 0.18814 valid_MSE: 0.18809 valid_MAE: 0.26416 valid_R2: 0.72946 
+[ 79/500] train_loss: 0.12873 valid_loss: 0.23492 valid_MSE: 0.23491 valid_MAE: 0.30737 valid_R2: 0.66210 
+[ 80/500] train_loss: 0.13096 valid_loss: 0.19620 valid_MSE: 0.19618 valid_MAE: 0.26499 valid_R2: 0.71782 
+[ 81/500] train_loss: 0.12873 valid_loss: 0.24652 valid_MSE: 0.24652 valid_MAE: 0.32663 valid_R2: 0.64541 
+[ 82/500] train_loss: 0.13901 valid_loss: 0.19510 valid_MSE: 0.19509 valid_MAE: 0.26753 valid_R2: 0.71939 
+[ 83/500] train_loss: 0.13201 valid_loss: 0.23670 valid_MSE: 0.23661 valid_MAE: 0.30760 valid_R2: 0.65966 
+[ 84/500] train_loss: 0.13139 valid_loss: 0.18839 valid_MSE: 0.18837 valid_MAE: 0.26325 valid_R2: 0.72905 
+[ 85/500] train_loss: 0.13504 valid_loss: 0.24247 valid_MSE: 0.24241 valid_MAE: 0.32087 valid_R2: 0.65131 
+[ 86/500] train_loss: 0.12875 valid_loss: 0.19068 valid_MSE: 0.19066 valid_MAE: 0.26254 valid_R2: 0.72575 
+[ 87/500] train_loss: 0.13480 valid_loss: 0.23808 valid_MSE: 0.23803 valid_MAE: 0.31045 valid_R2: 0.65761 
+[ 88/500] train_loss: 0.12900 valid_loss: 0.19067 valid_MSE: 0.19064 valid_MAE: 0.26368 valid_R2: 0.72579 
+[ 89/500] train_loss: 0.15211 valid_loss: 0.22490 valid_MSE: 0.22492 valid_MAE: 0.29422 valid_R2: 0.67648 
+[ 90/500] train_loss: 0.11961 valid_loss: 0.18745 valid_MSE: 0.18742 valid_MAE: 0.25989 valid_R2: 0.73041 
+[ 91/500] train_loss: 0.12983 valid_loss: 0.23397 valid_MSE: 0.23391 valid_MAE: 0.30843 valid_R2: 0.66354 
+[ 92/500] train_loss: 0.12840 valid_loss: 0.19096 valid_MSE: 0.19091 valid_MAE: 0.27319 valid_R2: 0.72539 
+[ 93/500] train_loss: 0.13626 valid_loss: 0.26498 valid_MSE: 0.26487 valid_MAE: 0.34559 valid_R2: 0.61901 
+[ 94/500] train_loss: 0.12500 valid_loss: 0.18980 valid_MSE: 0.18974 valid_MAE: 0.26560 valid_R2: 0.72708 
+[ 95/500] train_loss: 0.13054 valid_loss: 0.23147 valid_MSE: 0.23145 valid_MAE: 0.30240 valid_R2: 0.66709 
+[ 96/500] train_loss: 0.13157 valid_loss: 0.19080 valid_MSE: 0.19077 valid_MAE: 0.26647 valid_R2: 0.72560 
+[ 97/500] train_loss: 0.13312 valid_loss: 0.23942 valid_MSE: 0.23929 valid_MAE: 0.31330 valid_R2: 0.65581 
+[ 98/500] train_loss: 0.13367 valid_loss: 0.18900 valid_MSE: 0.18894 valid_MAE: 0.26499 valid_R2: 0.72822 
+[ 99/500] train_loss: 0.13067 valid_loss: 0.24047 valid_MSE: 0.24040 valid_MAE: 0.31253 valid_R2: 0.65420 
+[100/500] train_loss: 0.13221 valid_loss: 0.19213 valid_MSE: 0.19206 valid_MAE: 0.26384 valid_R2: 0.72373 
+[101/500] train_loss: 0.13138 valid_loss: 0.22280 valid_MSE: 0.22273 valid_MAE: 0.29873 valid_R2: 0.67963 
+[102/500] train_loss: 0.12616 valid_loss: 0.18774 valid_MSE: 0.18771 valid_MAE: 0.26349 valid_R2: 0.73000 
+[103/500] train_loss: 0.21069 valid_loss: 0.26435 valid_MSE: 0.26438 valid_MAE: 0.32438 valid_R2: 0.61971 
+[104/500] train_loss: 0.11191 valid_loss: 0.18606 valid_MSE: 0.18604 valid_MAE: 0.26208 valid_R2: 0.73240 
+[105/500] train_loss: 0.11406 valid_loss: 0.23392 valid_MSE: 0.23384 valid_MAE: 0.30933 valid_R2: 0.66364 
+[106/500] train_loss: 0.11694 valid_loss: 0.18540 valid_MSE: 0.18539 valid_MAE: 0.25935 valid_R2: 0.73333 
+[107/500] train_loss: 0.12119 valid_loss: 0.22569 valid_MSE: 0.22569 valid_MAE: 0.29928 valid_R2: 0.67537 
+[108/500] train_loss: 0.12979 valid_loss: 0.19020 valid_MSE: 0.19015 valid_MAE: 0.26178 valid_R2: 0.72648 
+[109/500] train_loss: 0.11900 valid_loss: 0.23772 valid_MSE: 0.23768 valid_MAE: 0.30732 valid_R2: 0.65812 
+[110/500] train_loss: 0.11936 valid_loss: 0.18693 valid_MSE: 0.18688 valid_MAE: 0.26135 valid_R2: 0.73119 
+[111/500] train_loss: 0.12645 valid_loss: 0.27364 valid_MSE: 0.27357 valid_MAE: 0.35731 valid_R2: 0.60650 
+[112/500] train_loss: 0.11541 valid_loss: 0.18793 valid_MSE: 0.18791 valid_MAE: 0.25870 valid_R2: 0.72971 
+[113/500] train_loss: 0.12403 valid_loss: 0.26749 valid_MSE: 0.26746 valid_MAE: 0.33499 valid_R2: 0.61528 
+[114/500] train_loss: 0.12449 valid_loss: 0.18647 valid_MSE: 0.18647 valid_MAE: 0.26210 valid_R2: 0.73179 
+[115/500] train_loss: 0.12353 valid_loss: 0.23012 valid_MSE: 0.23004 valid_MAE: 0.31674 valid_R2: 0.66911 
+[116/500] train_loss: 0.12482 valid_loss: 0.18805 valid_MSE: 0.18800 valid_MAE: 0.26775 valid_R2: 0.72958 
+[117/500] train_loss: 0.12625 valid_loss: 0.24070 valid_MSE: 0.24066 valid_MAE: 0.31633 valid_R2: 0.65383 
+[118/500] train_loss: 0.12238 valid_loss: 0.18732 valid_MSE: 0.18732 valid_MAE: 0.26191 valid_R2: 0.73055 
+[119/500] train_loss: 0.12462 valid_loss: 0.26769 valid_MSE: 0.26767 valid_MAE: 0.35317 valid_R2: 0.61498 
+[120/500] train_loss: 0.12768 valid_loss: 0.18902 valid_MSE: 0.18895 valid_MAE: 0.27088 valid_R2: 0.72821 
+[121/500] train_loss: 0.12319 valid_loss: 0.23054 valid_MSE: 0.23045 valid_MAE: 0.30230 valid_R2: 0.66851 
+[122/500] train_loss: 0.12459 valid_loss: 0.18958 valid_MSE: 0.18954 valid_MAE: 0.26521 valid_R2: 0.72736 
+[123/500] train_loss: 0.13288 valid_loss: 0.51208 valid_MSE: 0.51217 valid_MAE: 0.48556 valid_R2: 0.26329 
+[124/500] train_loss: 0.10509 valid_loss: 0.18322 valid_MSE: 0.18320 valid_MAE: 0.25879 valid_R2: 0.73649 
+[125/500] train_loss: 0.11225 valid_loss: 0.22365 valid_MSE: 0.22359 valid_MAE: 0.29266 valid_R2: 0.67838 
+[126/500] train_loss: 0.11607 valid_loss: 0.18842 valid_MSE: 0.18837 valid_MAE: 0.26304 valid_R2: 0.72904 
+[127/500] train_loss: 0.11385 valid_loss: 0.23702 valid_MSE: 0.23700 valid_MAE: 0.31546 valid_R2: 0.65910 
+[128/500] train_loss: 0.11134 valid_loss: 0.18759 valid_MSE: 0.18758 valid_MAE: 0.26004 valid_R2: 0.73018 
+[129/500] train_loss: 0.12068 valid_loss: 0.23774 valid_MSE: 0.23773 valid_MAE: 0.30230 valid_R2: 0.65805 
+[130/500] train_loss: 0.11465 valid_loss: 0.18664 valid_MSE: 0.18660 valid_MAE: 0.26033 valid_R2: 0.73160 
+[131/500] train_loss: 0.11586 valid_loss: 0.22701 valid_MSE: 0.22693 valid_MAE: 0.29712 valid_R2: 0.67358 
+[132/500] train_loss: 0.11721 valid_loss: 0.18865 valid_MSE: 0.18863 valid_MAE: 0.26945 valid_R2: 0.72868 
+[133/500] train_loss: 0.11860 valid_loss: 0.27593 valid_MSE: 0.27595 valid_MAE: 0.33916 valid_R2: 0.60307 
+[134/500] train_loss: 0.11201 valid_loss: 0.18662 valid_MSE: 0.18659 valid_MAE: 0.26084 valid_R2: 0.73161 
+[135/500] train_loss: 0.11694 valid_loss: 0.23558 valid_MSE: 0.23550 valid_MAE: 0.30082 valid_R2: 0.66126 
+[136/500] train_loss: 0.11486 valid_loss: 0.18539 valid_MSE: 0.18535 valid_MAE: 0.26264 valid_R2: 0.73340 
+[137/500] train_loss: 0.11898 valid_loss: 0.23897 valid_MSE: 0.23892 valid_MAE: 0.31089 valid_R2: 0.65634 
+[138/500] train_loss: 0.11048 valid_loss: 0.18464 valid_MSE: 0.18461 valid_MAE: 0.25931 valid_R2: 0.73446 
+[139/500] train_loss: 0.12067 valid_loss: 0.23281 valid_MSE: 0.23278 valid_MAE: 0.29876 valid_R2: 0.66517 
+[140/500] train_loss: 0.11677 valid_loss: 0.18601 valid_MSE: 0.18598 valid_MAE: 0.26008 valid_R2: 0.73249 
+[141/500] train_loss: 0.12261 valid_loss: 0.24991 valid_MSE: 0.24994 valid_MAE: 0.31573 valid_R2: 0.64049 
+[142/500] train_loss: 0.10857 valid_loss: 0.18331 valid_MSE: 0.18330 valid_MAE: 0.25980 valid_R2: 0.73634 
+[143/500] train_loss: 0.11827 valid_loss: 0.24035 valid_MSE: 0.24038 valid_MAE: 0.31081 valid_R2: 0.65424 
+[144/500] train_loss: 0.11354 valid_loss: 0.18390 valid_MSE: 0.18389 valid_MAE: 0.25846 valid_R2: 0.73549 
+[145/500] train_loss: 0.11818 valid_loss: 0.24694 valid_MSE: 0.24683 valid_MAE: 0.31515 valid_R2: 0.64496 
+[146/500] train_loss: 0.11239 valid_loss: 0.18618 valid_MSE: 0.18616 valid_MAE: 0.25825 valid_R2: 0.73223 
+[147/500] train_loss: 0.11889 valid_loss: 0.23300 valid_MSE: 0.23292 valid_MAE: 0.31132 valid_R2: 0.66496 
+[148/500] train_loss: 0.11781 valid_loss: 0.18747 valid_MSE: 0.18740 valid_MAE: 0.26072 valid_R2: 0.73044 
+[149/500] train_loss: 0.11356 valid_loss: 0.22450 valid_MSE: 0.22448 valid_MAE: 0.30660 valid_R2: 0.67711 
+[150/500] train_loss: 0.11149 valid_loss: 0.18576 valid_MSE: 0.18575 valid_MAE: 0.26287 valid_R2: 0.73281 
+[151/500] train_loss: 0.12026 valid_loss: 0.22320 valid_MSE: 0.22314 valid_MAE: 0.29568 valid_R2: 0.67903 
+[152/500] train_loss: 0.11773 valid_loss: 0.18844 valid_MSE: 0.18844 valid_MAE: 0.26233 valid_R2: 0.72895 
+[153/500] train_loss: 0.11771 valid_loss: 0.22149 valid_MSE: 0.22149 valid_MAE: 0.29337 valid_R2: 0.68140 
+[154/500] train_loss: 0.10920 valid_loss: 0.18428 valid_MSE: 0.18427 valid_MAE: 0.26245 valid_R2: 0.73495 
+[155/500] train_loss: 0.12017 valid_loss: 0.22769 valid_MSE: 0.22770 valid_MAE: 0.31190 valid_R2: 0.67248 
+[156/500] train_loss: 0.11251 valid_loss: 0.18200 valid_MSE: 0.18197 valid_MAE: 0.26123 valid_R2: 0.73825 
+[157/500] train_loss: 0.11597 valid_loss: 0.22468 valid_MSE: 0.22467 valid_MAE: 0.29238 valid_R2: 0.67683 
+[158/500] train_loss: 0.18897 valid_loss: 0.19512 valid_MSE: 0.19511 valid_MAE: 0.27004 valid_R2: 0.71936 
+[159/500] train_loss: 0.10547 valid_loss: 0.23223 valid_MSE: 0.23217 valid_MAE: 0.32552 valid_R2: 0.66604 
+[160/500] train_loss: 0.11086 valid_loss: 0.18564 valid_MSE: 0.18565 valid_MAE: 0.25851 valid_R2: 0.73296 
+[161/500] train_loss: 0.11865 valid_loss: 0.24949 valid_MSE: 0.24944 valid_MAE: 0.31313 valid_R2: 0.64121 
+[162/500] train_loss: 0.10589 valid_loss: 0.18543 valid_MSE: 0.18543 valid_MAE: 0.25762 valid_R2: 0.73327 
+[163/500] train_loss: 0.11775 valid_loss: 0.22783 valid_MSE: 0.22776 valid_MAE: 0.31055 valid_R2: 0.67239 
+[164/500] train_loss: 0.11485 valid_loss: 0.18567 valid_MSE: 0.18564 valid_MAE: 0.26253 valid_R2: 0.73297 
+[165/500] train_loss: 0.12237 valid_loss: 0.23889 valid_MSE: 0.23884 valid_MAE: 0.30400 valid_R2: 0.65644 
+[166/500] train_loss: 0.10595 valid_loss: 0.18321 valid_MSE: 0.18321 valid_MAE: 0.25590 valid_R2: 0.73647 
+[167/500] train_loss: 0.11798 valid_loss: 0.23115 valid_MSE: 0.23115 valid_MAE: 0.30836 valid_R2: 0.66751 
+[168/500] train_loss: 0.10889 valid_loss: 0.18587 valid_MSE: 0.18587 valid_MAE: 0.25612 valid_R2: 0.73265 
+[169/500] train_loss: 0.11619 valid_loss: 0.22759 valid_MSE: 0.22759 valid_MAE: 0.29714 valid_R2: 0.67264 
+[170/500] train_loss: 0.11019 valid_loss: 0.18539 valid_MSE: 0.18536 valid_MAE: 0.25728 valid_R2: 0.73337 
+[171/500] train_loss: 0.12007 valid_loss: 0.23940 valid_MSE: 0.23934 valid_MAE: 0.31043 valid_R2: 0.65573 
+[172/500] train_loss: 0.10988 valid_loss: 0.18642 valid_MSE: 0.18641 valid_MAE: 0.26528 valid_R2: 0.73186 
+[173/500] train_loss: 0.12122 valid_loss: 0.26913 valid_MSE: 0.26909 valid_MAE: 0.36330 valid_R2: 0.61294 
+[174/500] train_loss: 0.10274 valid_loss: 0.18627 valid_MSE: 0.18623 valid_MAE: 0.26411 valid_R2: 0.73213 
+[175/500] train_loss: 0.11721 valid_loss: 0.23421 valid_MSE: 0.23419 valid_MAE: 0.31464 valid_R2: 0.66314 
+[176/500] train_loss: 0.10782 valid_loss: 0.18438 valid_MSE: 0.18436 valid_MAE: 0.25957 valid_R2: 0.73481 
+[177/500] train_loss: 0.11943 valid_loss: 0.23283 valid_MSE: 0.23282 valid_MAE: 0.30089 valid_R2: 0.66511 
+[178/500] train_loss: 0.10707 valid_loss: 0.18362 valid_MSE: 0.18361 valid_MAE: 0.25474 valid_R2: 0.73589 
+[179/500] train_loss: 0.12826 valid_loss: 0.24295 valid_MSE: 0.24299 valid_MAE: 0.30705 valid_R2: 0.65048 
+[180/500] train_loss: 0.09903 valid_loss: 0.18139 valid_MSE: 0.18136 valid_MAE: 0.25727 valid_R2: 0.73913 
+[181/500] train_loss: 0.11322 valid_loss: 0.24489 valid_MSE: 0.24491 valid_MAE: 0.30359 valid_R2: 0.64772 
+[182/500] train_loss: 0.09644 valid_loss: 0.18224 valid_MSE: 0.18222 valid_MAE: 0.25684 valid_R2: 0.73789 
+[183/500] train_loss: 0.11549 valid_loss: 0.25461 valid_MSE: 0.25460 valid_MAE: 0.31673 valid_R2: 0.63379 
+[184/500] train_loss: 0.10580 valid_loss: 0.18514 valid_MSE: 0.18512 valid_MAE: 0.25804 valid_R2: 0.73373 
+[185/500] train_loss: 0.11046 valid_loss: 0.23257 valid_MSE: 0.23257 valid_MAE: 0.31040 valid_R2: 0.66547 
+[186/500] train_loss: 0.10447 valid_loss: 0.18737 valid_MSE: 0.18737 valid_MAE: 0.25861 valid_R2: 0.73049 
+[187/500] train_loss: 0.12137 valid_loss: 0.30872 valid_MSE: 0.30875 valid_MAE: 0.36645 valid_R2: 0.55589 
+[188/500] train_loss: 0.09972 valid_loss: 0.18486 valid_MSE: 0.18482 valid_MAE: 0.25953 valid_R2: 0.73415 
+[189/500] train_loss: 0.11643 valid_loss: 0.24214 valid_MSE: 0.24211 valid_MAE: 0.30183 valid_R2: 0.65174 
+[190/500] train_loss: 0.09824 valid_loss: 0.18430 valid_MSE: 0.18427 valid_MAE: 0.25762 valid_R2: 0.73495 
+[191/500] train_loss: 0.11785 valid_loss: 0.24805 valid_MSE: 0.24796 valid_MAE: 0.32501 valid_R2: 0.64334 
+[192/500] train_loss: 0.10203 valid_loss: 0.18575 valid_MSE: 0.18572 valid_MAE: 0.25547 valid_R2: 0.73286 
+[193/500] train_loss: 0.11422 valid_loss: 0.24031 valid_MSE: 0.24027 valid_MAE: 0.30989 valid_R2: 0.65440 
+[194/500] train_loss: 0.10205 valid_loss: 0.18676 valid_MSE: 0.18673 valid_MAE: 0.25609 valid_R2: 0.73140 
+[195/500] train_loss: 0.10991 valid_loss: 0.24005 valid_MSE: 0.23999 valid_MAE: 0.30706 valid_R2: 0.65480 
+[196/500] train_loss: 0.10454 valid_loss: 0.18415 valid_MSE: 0.18411 valid_MAE: 0.25604 valid_R2: 0.73518 
+[197/500] train_loss: 0.11638 valid_loss: 0.23752 valid_MSE: 0.23756 valid_MAE: 0.30181 valid_R2: 0.65830 
+[198/500] train_loss: 0.10814 valid_loss: 0.18366 valid_MSE: 0.18365 valid_MAE: 0.25468 valid_R2: 0.73584 
+[199/500] train_loss: 0.11797 valid_loss: 0.25302 valid_MSE: 0.25292 valid_MAE: 0.31960 valid_R2: 0.63620 
+[200/500] train_loss: 0.09978 valid_loss: 0.18525 valid_MSE: 0.18523 valid_MAE: 0.25621 valid_R2: 0.73357 
+[201/500] train_loss: 0.13232 valid_loss: 0.29917 valid_MSE: 0.29915 valid_MAE: 0.35041 valid_R2: 0.56971 
+[202/500] train_loss: 0.09574 valid_loss: 0.18369 valid_MSE: 0.18369 valid_MAE: 0.25621 valid_R2: 0.73578 
+[203/500] train_loss: 0.11562 valid_loss: 0.25236 valid_MSE: 0.25228 valid_MAE: 0.33723 valid_R2: 0.63711 
+[204/500] train_loss: 0.09947 valid_loss: 0.18446 valid_MSE: 0.18446 valid_MAE: 0.25746 valid_R2: 0.73467 
+[205/500] train_loss: 0.11813 valid_loss: 0.23175 valid_MSE: 0.23172 valid_MAE: 0.32012 valid_R2: 0.66669 
+[206/500] train_loss: 0.09992 valid_loss: 0.18320 valid_MSE: 0.18319 valid_MAE: 0.25646 valid_R2: 0.73650 
+[207/500] train_loss: 0.11436 valid_loss: 0.23584 valid_MSE: 0.23580 valid_MAE: 0.30399 valid_R2: 0.66082 
+[208/500] train_loss: 0.10129 valid_loss: 0.18563 valid_MSE: 0.18560 valid_MAE: 0.25737 valid_R2: 0.73304 
+[209/500] train_loss: 0.11642 valid_loss: 0.24045 valid_MSE: 0.24045 valid_MAE: 0.31813 valid_R2: 0.65414 
+[210/500] train_loss: 0.09913 valid_loss: 0.18459 valid_MSE: 0.18457 valid_MAE: 0.26131 valid_R2: 0.73452 
+[211/500] train_loss: 0.11885 valid_loss: 0.23984 valid_MSE: 0.23984 valid_MAE: 0.31248 valid_R2: 0.65502 
+[212/500] train_loss: 0.10901 valid_loss: 0.18638 valid_MSE: 0.18636 valid_MAE: 0.25944 valid_R2: 0.73194 
+[213/500] train_loss: 0.11550 valid_loss: 0.22640 valid_MSE: 0.22639 valid_MAE: 0.29315 valid_R2: 0.67435 
+[214/500] train_loss: 0.10100 valid_loss: 0.18245 valid_MSE: 0.18242 valid_MAE: 0.25788 valid_R2: 0.73761 
+[215/500] train_loss: 0.11218 valid_loss: 0.23304 valid_MSE: 0.23306 valid_MAE: 0.29666 valid_R2: 0.66477 
+[216/500] train_loss: 0.10814 valid_loss: 0.18723 valid_MSE: 0.18721 valid_MAE: 0.25755 valid_R2: 0.73071 
+[217/500] train_loss: 0.11638 valid_loss: 0.23286 valid_MSE: 0.23283 valid_MAE: 0.29835 valid_R2: 0.66510 
+[218/500] train_loss: 0.10332 valid_loss: 0.18534 valid_MSE: 0.18531 valid_MAE: 0.25899 valid_R2: 0.73345 
+[219/500] train_loss: 0.12759 valid_loss: 0.25668 valid_MSE: 0.25672 valid_MAE: 0.32748 valid_R2: 0.63074 
+[220/500] train_loss: 0.09392 valid_loss: 0.18154 valid_MSE: 0.18152 valid_MAE: 0.25549 valid_R2: 0.73889 
+[221/500] train_loss: 0.11305 valid_loss: 0.23637 valid_MSE: 0.23639 valid_MAE: 0.31126 valid_R2: 0.65998 
+[222/500] train_loss: 0.11315 valid_loss: 0.18538 valid_MSE: 0.18537 valid_MAE: 0.25851 valid_R2: 0.73336 
+[223/500] train_loss: 0.11868 valid_loss: 0.23877 valid_MSE: 0.23872 valid_MAE: 0.30245 valid_R2: 0.65662 
+[224/500] train_loss: 0.09713 valid_loss: 0.18310 valid_MSE: 0.18306 valid_MAE: 0.25444 valid_R2: 0.73669 
+[225/500] train_loss: 0.12189 valid_loss: 0.28539 valid_MSE: 0.28530 valid_MAE: 0.36051 valid_R2: 0.58962 
+[226/500] train_loss: 0.09824 valid_loss: 0.18329 valid_MSE: 0.18326 valid_MAE: 0.25877 valid_R2: 0.73639 
+[227/500] train_loss: 0.11931 valid_loss: 0.23373 valid_MSE: 0.23375 valid_MAE: 0.29542 valid_R2: 0.66378 
+[228/500] train_loss: 0.10538 valid_loss: 0.18527 valid_MSE: 0.18525 valid_MAE: 0.25731 valid_R2: 0.73354 
+[229/500] train_loss: 0.11575 valid_loss: 0.23371 valid_MSE: 0.23369 valid_MAE: 0.30112 valid_R2: 0.66386 
+[230/500] train_loss: 0.09728 valid_loss: 0.18501 valid_MSE: 0.18498 valid_MAE: 0.25543 valid_R2: 0.73392 
+Test_set--Loss:0.18774;MSE:0.18768;MAE:0.25258;R2:0.73233.
+Training for dropout rate:0.2
+[  1/500] train_loss: 1.16922 valid_loss: 0.67659 valid_MSE: 0.67676 valid_MAE: 0.56233 valid_R2: 0.03693 
+[  2/500] train_loss: 0.50433 valid_loss: 0.40857 valid_MSE: 0.40876 valid_MAE: 0.41406 valid_R2: 0.41831 
+[  3/500] train_loss: 0.45162 valid_loss: 0.44988 valid_MSE: 0.45004 valid_MAE: 0.50796 valid_R2: 0.35957 
+[  4/500] train_loss: 0.45322 valid_loss: 0.35468 valid_MSE: 0.35484 valid_MAE: 0.40605 valid_R2: 0.49504 
+[  5/500] train_loss: 0.39804 valid_loss: 0.38937 valid_MSE: 0.38955 valid_MAE: 0.43151 valid_R2: 0.44564 
+[  6/500] train_loss: 0.38942 valid_loss: 0.32415 valid_MSE: 0.32430 valid_MAE: 0.37873 valid_R2: 0.53851 
+[  7/500] train_loss: 0.35752 valid_loss: 0.40088 valid_MSE: 0.40104 valid_MAE: 0.40532 valid_R2: 0.42930 
+[  8/500] train_loss: 0.37540 valid_loss: 0.31128 valid_MSE: 0.31144 valid_MAE: 0.36020 valid_R2: 0.55680 
+[  9/500] train_loss: 0.34194 valid_loss: 0.38317 valid_MSE: 0.38330 valid_MAE: 0.39949 valid_R2: 0.45455 
+[ 10/500] train_loss: 0.34795 valid_loss: 0.29686 valid_MSE: 0.29702 valid_MAE: 0.35569 valid_R2: 0.57732 
+[ 11/500] train_loss: 0.32424 valid_loss: 0.35038 valid_MSE: 0.35056 valid_MAE: 0.38299 valid_R2: 0.50114 
+[ 12/500] train_loss: 0.32325 valid_loss: 0.28658 valid_MSE: 0.28674 valid_MAE: 0.35033 valid_R2: 0.59195 
+[ 13/500] train_loss: 0.30529 valid_loss: 0.33163 valid_MSE: 0.33179 valid_MAE: 0.37496 valid_R2: 0.52785 
+[ 14/500] train_loss: 0.30639 valid_loss: 0.28063 valid_MSE: 0.28077 valid_MAE: 0.33228 valid_R2: 0.60045 
+[ 15/500] train_loss: 0.28667 valid_loss: 0.34934 valid_MSE: 0.34950 valid_MAE: 0.39259 valid_R2: 0.50265 
+[ 16/500] train_loss: 0.29149 valid_loss: 0.26769 valid_MSE: 0.26783 valid_MAE: 0.33492 valid_R2: 0.61887 

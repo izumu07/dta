@@ -1,0 +1,4 @@
+results on 1th fold
+Train_set--Loss:0.00715;MSE:0.00715;MAE:0.06143;R2:0.98976.
+Valid_set--Loss:0.16427;MSE:0.16426;MAE:0.22575;R2:0.76811.
+Test_set--Loss:0.17838;MSE:0.17827;MAE:0.23258;R2:0.74575.

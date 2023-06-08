@@ -1,0 +1,12 @@
+results on 
+Test_set--Loss:0.22139;MSE:0.22143;MAE:0.31904;R2:0.68562.
+results on 
+Test_set--Loss:0.26983;MSE:0.26969;MAE:0.37473;R2:0.62094.
+results on 
+Test_set--Loss:0.19338;MSE:0.19341;MAE:0.27965;R2:0.72637.
+results on 
+Test_set--Loss:0.18921;MSE:0.18928;MAE:0.25592;R2:0.72926.
+results on 
+Test_set--Loss:0.18126;MSE:0.18099;MAE:0.25911;R2:0.74096.
+results on 
+Test_set--Loss:0.19389;MSE:0.19400;MAE:0.26122;R2:0.72421.
